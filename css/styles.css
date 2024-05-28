@@ -1,0 +1,80 @@
+body {
+  background: #f8f0f4; /* Fondo en tono rosa claro */
+  text-align: justify;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+#container {
+  margin: 0 auto;
+  max-width: 1000px;
+  background: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+#header {
+  background: #f3c7d1; /* Fondo en tono rosa claro para el encabezado */
+  text-align: center;
+  padding: 20px;
+  color: #333;
+}
+
+#header h1 {
+  font-size: 28px;
+  margin: 0.6em;
+}
+
+#header h2 {
+  font-size: 24px;
+  margin: 0.2em;
+}
+
+#content {
+  background: #fff; /* Fondo blanco para el contenido */
+  clear: both;
+  padding: 20px;
+}
+
+#content h2 {
+  color: #333;
+  font-size: 24px;
+  margin: 0 0 20px;
+}
+
+li {
+  padding: 12px;
+}
+
+a {
+  color: #ff66a3; /* Color rosa claro para los enlaces */
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+#footer {
+  color: #fff;
+  background: #f3c7d1; /* Fondo en tono rosa claro para el pie de página */
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+input {
+  margin: 6px;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+
