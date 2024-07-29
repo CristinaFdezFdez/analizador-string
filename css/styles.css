@@ -1,40 +1,52 @@
+/* styles.css */
+
+/* Estilos generales */
 body {
-  background: #f8f0f4; /* Fondo en tono rosa claro */
+  background: #f4f4f4; /* Fondo gris claro */
   text-align: justify;
   font-family: "Arial", sans-serif;
   font-size: 16px;
   color: #333;
+  margin: 0;
+  padding: 0;
 }
 
 #container {
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
-  max-width: 1000px;
-  background: #fff;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background: #ffffff; /* Fondo blanco para el contenedor */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
+  border-radius: 8px;
 }
 
+/* Encabezado */
 #header {
-  background: #f3c7d1; /* Fondo en tono rosa claro para el encabezado */
+  background: #e0e0e0; /* Fondo gris claro para el encabezado */
   text-align: center;
   padding: 20px;
   color: #333;
+  margin-bottom: 20px;
+  border-radius: 8px 8px 0 0;
 }
 
 #header h1 {
-  font-size: 28px;
-  margin: 0.6em;
+  font-size: 32px;
+  margin: 0.5em 0;
 }
 
 #header h2 {
   font-size: 24px;
-  margin: 0.2em;
+  margin: 0.5em 0;
 }
 
+/* Contenido */
 #content {
-  background: #fff; /* Fondo blanco para el contenido */
-  clear: both;
+  background: #ffffff; /* Fondo blanco para el contenido */
   padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #content h2 {
@@ -43,38 +55,46 @@ body {
   margin: 0 0 20px;
 }
 
-li {
-  padding: 12px;
+input[type="text"],
+textarea {
+  margin: 6px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: calc(100% - 22px);
+  box-sizing: border-box;
 }
 
-a {
-  color: #ff66a3; /* Color rosa claro para los enlaces */
-  text-decoration: none;
-}
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-th, td {
-  border: 1px solid #ddd;
-  padding: 12px;
-  text-align: left;
-}
-
-#footer {
+input[type="button"] {
+  margin: 6px 0;
+  padding: 10px 20px;
+  border: none;
+  background-color: #333; /* Color gris oscuro */
   color: #fff;
-  background: #f3c7d1; /* Fondo en tono rosa claro para el pie de página */
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input[type="button"]:hover {
+  background-color: #555; /* Color gris más oscuro al pasar el mouse */
+}
+
+/* Pie de página */
+#footer {
+  color: #ffffff;
+  background: #333; /* Fondo gris oscuro para el pie de página */
   text-align: center;
   padding: 20px;
   margin-top: 20px;
+  border-radius: 0 0 8px 8px;
 }
 
-input {
-  margin: 6px;
-  padding: 8px;
-  border: 1px solid #ccc;
+a {
+  color: #333; /* Color gris oscuro para los enlaces */
+  text-decoration: none;
 }
 
-
+a:hover {
+  text-decoration: underline;
+}
